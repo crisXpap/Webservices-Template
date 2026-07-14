@@ -415,3 +415,271 @@ body, html {
     perspective: 1000px;
     will-change: transform;
 }
+
+/* Responsive design styles */
+@media (max-width: 1200px) {
+    .brand-text {
+        font-size: 8rem;
+        gap: 2.5rem;
+    }
+    
+    .experiment-icon {
+        top: -0.5rem;
+        right: -2rem;
+        font-size: 7rem;
+    }
+}
+
+@media (max-width: 1024px) {
+    .page-section {
+        height: auto;
+        min-height: 100vh;
+        padding: 100px 20px;
+    }
+
+    #hero {
+        height: 100vh;
+        padding: 0;
+    }
+
+    .glass-nav {
+        padding: 0 25px;
+    }
+
+    .section-content {
+        flex-direction: column;
+        text-align: center;
+        gap: 3rem;
+        padding: 0 10px;
+    }
+
+    .text-container {
+        flex: 0 0 100%;
+        text-align: center;
+    }
+
+    .section-title {
+        font-size: 5rem;
+    }
+
+    .section-text {
+        font-size: 1.3rem;
+    }
+
+    /* Section 3 responsive adjustments */
+    #section-3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #section-3 .tilt-element {
+        position: static !important;
+        transform: none !important;
+        width: 80% !important;
+        max-width: 450px;
+        height: auto !important;
+        margin-bottom: 2rem;
+    }
+
+    #section-3 .section-content {
+        position: static !important;
+        transform: none !important;
+        width: 100% !important;
+        text-align: center !important;
+    }
+
+    #section-3 .section-content h3 {
+        font-size: 2.8rem !important;
+        margin-bottom: 1.5rem !important;
+    }
+
+    #section-3 .section-content p {
+        font-size: 1.1rem !important;
+    }
+
+    #section-3 .section-content div[style*="display: flex"] {
+        justify-content: center;
+    }
+
+    /* Section 5 responsive adjustments */
+    #section-5 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #section-5 .tilt-element {
+        position: static !important;
+        transform: none !important;
+        width: 80% !important;
+        max-width: 350px;
+        height: auto !important;
+        margin-bottom: 2rem;
+    }
+
+    #section-5 .section-content {
+        position: static !important;
+        transform: none !important;
+        width: 100% !important;
+        text-align: center !important;
+    }
+
+    #section-5 .section-content h3 {
+        font-size: 2.8rem !important;
+        margin-bottom: 1.5rem !important;
+    }
+
+    #section-5 .section-content p {
+        font-size: 1.1rem !important;
+    }
+
+    #section-5 .section-content div[style*="display: flex"] {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .brand-text {
+        font-size: 5rem;
+        gap: 1.5rem;
+        flex-direction: column;
+    }
+
+    .experiment-icon {
+        position: static;
+        font-size: 5rem;
+        transform: none;
+        animation: spin-mobile 2s infinite linear;
+        margin-top: 1rem;
+    }
+
+    @keyframes spin-mobile {
+        0% { transform: scale(2) rotate(0deg); }
+        50% { transform: scale(2) rotate(360deg); } 
+        100% { transform: scale(2) rotate(360deg); }
+    }
+
+    .cta-button {
+        font-size: 1.2rem;
+        padding: 1rem 2rem;
+    }
+
+    .section-title {
+        font-size: 3.5rem;
+    }
+
+    .section-text {
+        font-size: 1.1rem;
+    }
+
+    .icon-chat {
+        font-size: 10rem;
+        transform: scale(2);
+        margin: 0;
+        order: 2;
+    }
+
+    .icon-cognition {
+        font-size: 10rem;
+        transform: scale(2);
+        margin: 0;
+        order: 1;
+    }
+
+    .icon-container {
+        gap: 2rem;
+        flex-direction: row;
+        margin-top: 2rem;
+        display: flex;
+    }
+
+    #section-4 .section-content {
+        padding: 0 15px !important;
+    }
+
+    #section-4 h2 {
+        font-size: 2.2rem !important;
+    }
+
+    .plans-slider {
+        flex-wrap: nowrap !important;
+        justify-content: flex-start !important;
+        overflow-x: auto !important;
+        padding: 20px 10px !important;
+        width: 100vw !important;
+        margin-left: -15px !important;
+        margin-right: -15px !important;
+        scroll-snap-type: x mandatory !important;
+        scrollbar-width: none; /* Firefox */
+    }
+
+    .plans-slider::-webkit-scrollbar {
+        display: none; /* Safari and Chrome */
+    }
+
+    .plan-card {
+        min-width: 280px !important;
+        max-width: 280px !important;
+        scroll-snap-align: center !important;
+        flex-shrink: 0 !important;
+        padding: 1.8rem;
+    }
+
+    .plan-features {
+        grid-template-columns: 1fr;
+    }
+
+    #get-started-btn {
+        width: 100%;
+        justify-content: center;
+        padding: 1.2rem 2rem !important;
+        font-size: 1.1rem !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .brand-text {
+        font-size: 3.5rem;
+        gap: 0.5rem;
+    }
+
+    .experiment-icon {
+        font-size: 3.5rem;
+    }
+
+    .glass-nav {
+        height: 60px;
+        padding: 0 15px;
+    }
+
+    .nav-link {
+        width: 36px;
+        height: 36px;
+    }
+
+    .nav-link span.material-symbols-outlined {
+        font-size: 1.2rem;
+    }
+
+    .nav-left, .nav-right {
+        gap: 10px;
+    }
+
+    #section-3 .section-content h3, #section-5 .section-content h3 {
+        font-size: 2rem !important;
+    }
+
+    #section-3 .section-content div[style*="display: flex"], #section-5 .section-content div[style*="display: flex"] {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #section-3 .section-content a, #section-5 .section-content a {
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+    }
+}
