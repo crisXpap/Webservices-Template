@@ -1,0 +1,32 @@
+# Aegean Labs - Web Design & E-commerce Services (Athens, Greece)
+
+Aegean Labs is a boutique web development studio based in Athens, Greece, dedicated to transforming local businesses into digital-first enterprises. We don't just build websites; we craft your store's long-term digital footprint.
+
+## Our Philosophy: Building Your Digital Footprint
+A website is only the foundation. We specialize in expanding your store's visibility by:
+- **Strategic Indexing**: Ensuring your business is "AI-readable" through optimized documentation.
+- **Brand Consistency**: Creating a unified visual and functional identity across every page.
+- **Growth-Oriented Architecture**: Designing structures that scale as your customer base expands, turning every visitor into a meaningful data point in your brand's story.
+
+## Pricing Plans
+
+### 1. BASIC - 389 €
+*Best for: Simple professional presence.*
+- 1-2 Pages, Essential UI/Setup, Privacy Policy, Favicon, Contact Info.
+
+### 2. COMMON - 549 €
+*Best for: Growing businesses needing engagement.*
+- 3-5 Pages, Essential UI/Setup, Privacy Policy, Favicon, Contact Info, Contact Form, Smooth Scrolling, Link Preview Image, SEO Keywords.
+
+### 3. ADVANCED - 719 €
+*Best for: Full-featured, interactive experiences.*
+- 6-11+ Pages, Essential UI/Setup, Privacy Policy, Favicon, Contact Info, Contact Form, Smooth Scrolling, Link Preview Image, SEO Keywords, Full SEO, Micro-interactions, Story Scroll (optional), LLM File for AI.
+
+## Technical Specifications
+- **Stack**: HTML5, CSS3, JavaScript.
+- **Hosting**: Edge-deployed via Vercel for maximum speed and reliability.
+- **Customization**: Signature Glassmorphism design patterns.
+
+## Contact & Inquiries
+- **Location**: Athens, Greece
+- **Services**: Custom Web Design, E-commerce, SEO, and AI-Ready Digital Footprint Strategy.

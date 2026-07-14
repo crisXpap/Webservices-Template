@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aegean Labs</title>
+    <link rel="icon" type="image/png" href="fav.png">
+    <meta property="og:image" content="prev.png">
+    <meta property="og:title" content="Aegean Labs">
+    <meta property="og:description" content="Aegean Labs - Creating stellar online presence for your business.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=add_shopping_cart,arrow_outward,arrow_right_alt,arrow_upward,chat,check,close,data_loss_prevention,experiment,hotel_class,music_note,music_off,podium,policy,psychology,stylus" />
+    <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Mozilla+Headline:wght@200..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="glass-nav">
+        <div class="nav-left">
+            <a href="privacy.html" class="nav-link"><span class="material-symbols-outlined">policy</span></a>
+            <a href="javascript:void(0)" id="audio-toggle-btn" class="nav-link" onclick="toggleAudio()" style="display: flex;"><span id="audio-icon" class="material-symbols-outlined">music_off</span></a>
+        </div>
+        <div class="nav-right">
+            <a href="javascript:void(0)" onclick="lenis.scrollTo('#section-2')" class="nav-link"><span class="material-symbols-outlined">podium</span></a>
+            <a href="javascript:void(0)" onclick="lenis.scrollTo('#section-3')" class="nav-link"><span class="material-symbols-outlined">hotel_class</span></a>
+            <a href="javascript:void(0)" onclick="lenis.scrollTo('#section-4')" class="nav-link"><span class="material-symbols-outlined">add_shopping_cart</span></a>
+            <a href="javascript:void(0)" onclick="lenis.scrollTo('#section-5')" class="nav-link"><span class="material-symbols-outlined">data_loss_prevention</span></a>
+        </div>
+    </nav>
+
+    <section id="hero" class="page-section" onmousemove="moveHeroText(event)">
+        <div class="fire-container">
+            <div class="blob blob-left"></div>
+            <div class="blob blob-right"></div>
+        </div>
+        <div class="blend-overlay"></div>
+        <div class="hero-content" id="hero-content">
+            <h1 class="brand-text">
+                <span class="aegean-word">Aegean</span> <span class="labs-container">Studio <span class="material-symbols-outlined experiment-icon">experiment</span></span>
+            </h1>
+            <a href="javascript:void(0)" onclick="lenis.scrollTo('#section-4')" class="cta-button">
+                Get Started
+                <span class="material-symbols-outlined">arrow_right_alt</span>
+            </a>
+        </div>
+    </section>
+
+    <section id="section-2" class="page-section" onmousemove="moveIcons(event)">
+        <div class="fire-container">
+            <div class="blob blob-left-sec2"></div>
+            <div class="blob blob-right-sec2"></div>
+        </div>
+        <div class="blend-overlay"></div>
+        <div class="section-content">
+            <div class="text-container">
+                <h2 class="section-title">Our Journey</h2>
+                <p class="section-text">At Aegean Studios, we focus on shipping the best online presence for your business. We focus on creating sites that don't just inform your future customers but also engage them visually. We create SEO-ready sites that make them stick with your services, preparing the ground for your seamless sales conversions.</p>
+            </div>
+            <div class="icon-container" id="section-2-icons">
+                <span class="material-symbols-outlined icon-chat">chat</span>
+                <span class="material-symbols-outlined icon-cognition">psychology</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="section-3" class="page-section">
+        <div class="fire-container">
+            <div class="blob blob-left"></div>
+        </div>
+        <div class="blend-overlay"></div>
+        
+        <!-- Image as an absolute layer -->
+        <img src="zilver.png" alt="Zilver" class="tilt-element" style="position: absolute; top: 50%; left: 75%; transform: translate(-50%, -50%); width: 700px; height: auto; z-index: 2; object-fit: contain;">
+
+        <!-- Content layer -->
+                <div class="section-content" style="position: absolute; top: 50%; left: 25%; transform: translate(-50%, -50%); width: 30%; z-index: 3; text-align: left; color: #f2eee1;">
+            <div>
+                <h3 style="font-family: 'Merriweather', serif; font-size: 3.5rem; margin-bottom: 2rem; line-height: 1.1;">Eleni from Zilver says</h3>
+                <p style="font-family: 'Atkinson Hyperlegible Next', sans-serif; font-size: 1.2rem; font-weight: 300; opacity: 0.8; line-height: 1.6; margin-bottom: 2rem;">We are currently finalizing the details for our project and Eleni is very excited to share her experience with Aegean Labs. She is unavailable to provide the full testimonial at this moment, but she has promised to send her detailed review to us by tomorrow morning.</p>
+                
+                <div style="display: flex; gap: 1rem; align-items: center;">
+                    <a href="https://zilver-patisserie.vercel.app/" style="background: rgba(255, 255, 255, 0.1); backdrop-filter: blur(10px); padding: 1rem 2rem; border-radius: 50px; color: #f2eee1; text-decoration: none; font-family: 'Atkinson Hyperlegible Next', sans-serif; font-size: 1rem; border: 1px solid rgba(255, 255, 255, 0.2);">zilver-patisserie.vercel.app</a>
+                    <a href="https://zilver-patisserie.vercel.app/" style="background: rgba(255, 255, 255, 0.1); backdrop-filter: blur(10px); width: 50px; height: 50px; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: #f2eee1; border: 1px solid rgba(255, 255, 255, 0.2); text-decoration: none;">
+                        <span class="material-symbols-outlined" style="font-size: 2rem;">arrow_outward</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="section-4" class="page-section" style="height: auto; padding: 100px 0;">
+        <div class="fire-container">
+            <div class="blob blob-left-mirrored"></div>
+            <div class="blob blob-right-mirrored"></div>
+        </div>
+        <div class="blend-overlay"></div>
+        
+        <div class="section-content" style="z-index: 2; display: flex; flex-direction: column; gap: 3rem; align-items: center; width: 100%; padding: 0 50px;">
+            <h2 style="font-family: 'Mozilla Headline', sans-serif; color: #f2eee1; font-size: 3rem; margin-bottom: -1rem;">Pick your plan</h2>
+            <div style="display: flex; gap: 2rem; justify-content: center; flex-wrap: wrap;">
+                <!-- Basic Plan -->
+                <div class="plan-card" id="card-basic" onclick="selectPlan('basic')" style="cursor: pointer; transition: border 0.3s;">
+                    <div class="plan-title">BASIC</div>
+                    <div class="plan-price">389 €</div>
+                    <ul class="plan-features">
+                        <li class="plan-feature"><span class="material-symbols-outlined">check</span> 1-2 Pages</li>
+                        <li class="plan-feature"><span class="material-symbols-outlined">check</span> Essential UI/Setup</li>
+                        <li class="plan-feature"><span class="material-symbols-outlined">check</span> Privacy Policy</li>
+                        <li class="plan-feature"><span class="material-symbols-outlined">check</span> Favicon</li>
+                        <li class="plan-feature"><span class="material-symbols-outlined">check</span> Contact Info</li>
+                        <li class="plan-feature excluded"><span class="material-symbols-outlined">close</span> Contact Form</li>
+                        <li class="plan-feature excluded"><span class="material-symbols-outlined">close</span> Smooth Scrolling</li>
+                        <li class="plan-feature excluded"><span class="material-symbols-outlined">close</span> Link Preview Image</li>
+                        <li class="plan-feature excluded"><span class="material-symbols-outlined">close</span> SEO Keywords</li>
+                        <li class="plan-feature excluded"><span class="material-symbols-outlined">close</span> Full SEO</li>
+                        <li class="plan-feature excluded"><span class="material-symbols-outlined">close</span> LLM File for AI</li>
+                        <li class="plan-feature excluded"><span class="material-symbols-outlined">close</span> Micro-interactions</li>
+                        <li class="plan-feature excluded"><span class="material-symbols-outlined">close</span> Story Scroll</li>
+                        <li class="plan-feature excluded"><span class="material-symbols-outlined">close</span> Story Scroll (optional)</li>
+                    </ul>
+                </div>
+                <!-- Common Plan -->
+                <div class="plan-card" id="card-common" onclick="selectPlan('common')" style="cursor: pointer; transition: border 0.3s;">
+                    <div class="plan-title">COMMON</div>
+                    <div class="plan-price">549 €</div>
+                    <ul class="plan-features">
+                        <li class="plan-feature"><span class="material-symbols-outlined">check</span> 3-5 Pages</li>
+                        <li class="plan-feature"><span class="material-symbols-outlined">check</span> Essential UI/Setup</li>
+                        <li class="plan-feature"><span class="material-symbols-outlined">check</span> Privacy Policy</li>
+                        <li class="plan-feature"><span class="material-symbols-outlined">check</span> Favicon</li>
+                        <li class="plan-feature"><span class="material-symbols-outlined">check</span> Contact Info</li>
+                        <li class="plan-feature"><span class="material-symbols-outlined">check</span> Contact Form</li>
+                        <li class="plan-feature"><span class="material-symbols-outlined">check</span> Smooth Scrolling</li>
+                        <li class="plan-feature"><span class="material-symbols-outlined">check</span> Link Preview Image</li>
+                        <li class="plan-feature"><span class="material-symbols-outlined">check</span> SEO Keywords</li>
+                        <li class="plan-feature excluded"><span class="material-symbols-outlined">close</span> Full SEO</li>
+                        <li class="plan-feature excluded"><span class="material-symbols-outlined">close</span> LLM File for AI</li>
+                        <li class="plan-feature excluded"><span class="material-symbols-outlined">close</span> Micro-interactions</li>
+                        <li class="plan-feature excluded"><span class="material-symbols-outlined">close</span> Story Scroll</li>
+                        <li class="plan-feature excluded"><span class="material-symbols-outlined">close</span> Story Scroll (optional)</li>
+                    </ul>
+                </div>
+                <!-- Advanced Plan -->
+                <div class="plan-card" id="card-advanced" onclick="selectPlan('advanced')" style="cursor: pointer; transition: border 0.3s;">
+                    <div class="plan-title">ADVANCED</div>
+                    <div class="plan-price">719 €</div>
+                    <ul class="plan-features">
+                        <li class="plan-feature"><span class="material-symbols-outlined">check</span> 6-11+ Pages</li>
+                        <li class="plan-feature"><span class="material-symbols-outlined">check</span> Essential UI/Setup</li>
+                        <li class="plan-feature"><span class="material-symbols-outlined">check</span> Privacy Policy</li>
+                        <li class="plan-feature"><span class="material-symbols-outlined">check</span> Favicon</li>
+                        <li class="plan-feature"><span class="material-symbols-outlined">check</span> Contact Info</li>
+                        <li class="plan-feature"><span class="material-symbols-outlined">check</span> Contact Form</li>
+                        <li class="plan-feature"><span class="material-symbols-outlined">check</span> Smooth Scrolling</li>
+                        <li class="plan-feature"><span class="material-symbols-outlined">check</span> Link Preview Image</li>
+                        <li class="plan-feature"><span class="material-symbols-outlined">check</span> SEO Keywords</li>
+                        <li class="plan-feature"><span class="material-symbols-outlined">check</span> Story Scroll (optional)</li>
+                        <li class="plan-feature"><span class="material-symbols-outlined">check</span> Full SEO</li>
+                        <li class="plan-feature"><span class="material-symbols-outlined">check</span> LLM File for AI</li>
+                        <li class="plan-feature"><span class="material-symbols-outlined">check</span> Micro-interactions</li>
+                        <li class="plan-feature"><span class="material-symbols-outlined">check</span> Story Scroll</li>
+                    </ul>
+                </div>
+            </div>
+
+            <a href="javascript:void(0)" id="get-started-btn" onclick="goToOrder()" style="background: rgba(255, 255, 255, 0.05); backdrop-filter: blur(10px); padding: 1.5rem 3rem; border-radius: 50px; color: rgba(255, 255, 255, 0.5); text-decoration: none; font-family: 'Atkinson Hyperlegible Next', sans-serif; font-size: 1.2rem; border: 1px solid rgba(255, 255, 255, 0.1); display: flex; align-items: center; gap: 1rem; pointer-events: none; transition: all 0.3s;">
+                Get Started
+                <span class="material-symbols-outlined">arrow_right_alt</span>
+            </a>
+        </div>
+
+        <script>
+            function selectPlan(plan) {
+                // Clear any previous selection and set new one
+                localStorage.removeItem('selectedPlan');
+                localStorage.setItem('selectedPlan', plan);
+                
+                const btn = document.getElementById('get-started-btn');
+                const cards = ['basic', 'common', 'advanced'];
+                
+                cards.forEach(p => document.getElementById('card-' + p).style.borderColor = 'rgba(255, 255, 255, 0.1)');
+                document.getElementById('card-' + plan).style.borderColor = '#fff';
+                
+                btn.style.background = 'rgba(255, 255, 255, 0.2)';
+                btn.style.color = '#fff';
+                btn.style.borderColor = 'rgba(255, 255, 255, 0.5)';
+                btn.style.pointerEvents = 'auto';
+                btn.setAttribute('onclick', 'goToOrder()');
+            }
+
+            function goToOrder() {
+                const plan = localStorage.getItem('selectedPlan');
+                if (plan) {
+                    window.location.href = 'order.html?plan=' + plan;
+                }
+            }
+        </script>
+    </section>
+
+    <section id="section-5" class="page-section">
+        <div class="fire-container">
+            <div class="blob blob-smaller-br"></div>
+        </div>
+        <div class="blend-overlay"></div>
+        
+        <!-- Image as an absolute layer -->
+        <img src="github.png" alt="CEO" class="tilt-element" style="position: absolute; top: 50%; left: 25%; transform: translate(-50%, -50%); width: 500px; height: auto; z-index: 2; object-fit: contain;">
+
+        <!-- Content layer -->
+        <div class="section-content" style="position: absolute; top: 50%; left: 70%; transform: translate(-50%, -50%); width: 40%; z-index: 3; text-align: left; color: #f2eee1;">
+            <div>
+                <h3 style="font-family: 'Merriweather', serif; font-size: 3.5rem; margin-bottom: 2rem; line-height: 1.1;">Aegean Studio's CEO</h3>
+                <p style="font-family: 'Atkinson Hyperlegible Next', sans-serif; font-size: 1.2rem; font-weight: 300; opacity: 0.8; line-height: 1.6; margin-bottom: 2rem;">Chris Pappas is the founder and current CEO of Aegean Studio. He has helped with the development of this service since it first launched.</p>
+                
+                <div style="display: flex; gap: 1rem; align-items: center;">
+                    <a href="https://github.com/crisXpap" style="background: rgba(255, 255, 255, 0.1); backdrop-filter: blur(10px); padding: 1rem 2rem; border-radius: 50px; color: #f2eee1; text-decoration: none; font-family: 'Atkinson Hyperlegible Next', sans-serif; font-size: 1rem; border: 1px solid rgba(255, 255, 255, 0.2);">github.com/crisXpap</a>
+                    <a href="https://github.com/crisXpap" style="background: rgba(255, 255, 255, 0.1); backdrop-filter: blur(10px); width: 50px; height: 50px; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: #f2eee1; border: 1px solid rgba(255, 255, 255, 0.2); text-decoration: none;">
+                        <span class="material-symbols-outlined" style="font-size: 2rem;">arrow_outward</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/@studio-freight/lenis@1.0.33/dist/lenis.min.js"></script> 
+    <script>
+        const lenis = new Lenis();
+        function raf(time) {
+          lenis.raf(time);
+          requestAnimationFrame(raf);
+        }
+        requestAnimationFrame(raf);
+
+        // 3D Tilt Effect
+        document.querySelectorAll('.tilt-element').forEach(el => {
+            el.addEventListener('mousemove', e => {
+                const rect = el.getBoundingClientRect();
+                const x = e.clientX - rect.left;
+                const y = e.clientY - rect.top;
+                const centerX = rect.width / 2;
+                const centerY = rect.height / 2;
+                const rotateX = (y - centerY) / 20;
+                const rotateY = (centerX - x) / 20;
+
+                el.style.transform = `translate(-50%, -50%) perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) scale(1.05)`;
+            });
+
+            el.addEventListener('mouseleave', () => {
+                el.style.transform = 'translate(-50%, -50%) perspective(1000px) rotateX(0deg) rotateY(0deg) scale(1)';
+            });
+        });
+
+        function moveHeroText(e) {
+            const hero = document.getElementById('hero');
+            const content = document.getElementById('hero-content');
+            const rect = hero.getBoundingClientRect();
+            const x = (e.clientX - rect.left - rect.width / 2) / 100;
+            const y = (e.clientY - rect.top - rect.height / 2) / 100;
+            
+            content.style.transform = `translate(${x}px, ${y}px)`;
+        }
+
+        function moveIcons(e) {
+            const container = document.getElementById('section-2');
+            const icons = document.getElementById('section-2-icons');
+            const rect = container.getBoundingClientRect();
+            const x = (e.clientX - rect.left - rect.width / 2) / 100;
+            const y = (e.clientY - rect.top - rect.height / 2) / 100;
+            
+            icons.style.transform = `translate(${x}px, ${y}px)`;
+        }
+
+        // Reset hero text on mouseleave
+        document.getElementById('hero').addEventListener('mouseleave', () => {
+            document.getElementById('hero-content').style.transform = 'translate(0, 0)';
+        });
+
+        // Reset icons on mouseleave
+        document.getElementById('section-2').addEventListener('mouseleave', () => {
+            document.getElementById('section-2-icons').style.transform = 'translate(0, 0)';
+        });
+    </script>
+    <style>
+        body {
+            user-select: none;
+            -webkit-user-select: none; /* Safari */
+            -ms-user-select: none; /* IE/Edge */
+        }
+        @keyframes slideInUp {
+            from { transform: translateY(100%); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+        #audio-overlay {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 100;
+            display: none;
+            animation: slideInUp 0.3s ease-out forwards;
+        }
+        #back-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 99;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            padding: 1rem;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            text-decoration: none;
+            transition: all 0.3s;
+        }
+        #back-to-top:hover {
+            background: rgba(255, 255, 255, 0.2);
+        }
+    </style>
+    <a href="javascript:void(0)" id="back-to-top" onclick="lenis.scrollTo('#hero')" style="display: none;">
+        <span class="material-symbols-outlined">arrow_upward</span>
+    </a>
+    <div id="audio-overlay">
+        <div style="background: rgba(255, 255, 255, 0.1); backdrop-filter: blur(20px); border: 1px solid rgba(255, 255, 255, 0.2); padding: 1rem 2rem; border-radius: 25px; text-align: center; color: #fff; display: flex; align-items: center; gap: 1rem;">
+            <p style="margin: 0; font-family: 'Atkinson Hyperlegible Next', sans-serif; font-size: 0.9rem;">Enable immersive audio?</p>
+            <div style="display: flex; gap: 0.5rem;">
+                <button onclick="enableAudio(true)" style="width: 35px; height: 35px; padding: 0; background: rgba(255, 255, 255, 0.2); border: 1px solid rgba(255, 255, 255, 0.3); color: #fff; border-radius: 50%; cursor: pointer; display: flex; align-items: center; justify-content: center;"><span class="material-symbols-outlined">check</span></button>
+                <button onclick="enableAudio(false)" style="width: 35px; height: 35px; padding: 0; background: rgba(255, 255, 255, 0.1); border: 1px solid rgba(255, 255, 255, 0.2); color: #fff; border-radius: 50%; cursor: pointer; display: flex; align-items: center; justify-content: center;"><span class="material-symbols-outlined">close</span></button>
+            </div>
+        </div>
+    </div>
+
+    <audio id="fire-audio" loop>
+        <source src="fire.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="click-audio">
+        <source src="click.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="button-audio">
+        <source src="button.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="pop-audio">
+        <source src="pop.mp3" type="audio/mpeg">
+    </audio>
+
+    <script>
+        const fireAudio = document.getElementById('fire-audio');
+        const clickAudio = document.getElementById('click-audio');
+        const buttonAudio = document.getElementById('button-audio');
+        const popAudio = document.getElementById('pop-audio');
+        
+        function enableAudio(enabled) {
+            if (enabled) {
+                fireAudio.volume = 0.25;
+                fireAudio.play().catch(e => console.error("Audio playback failed:", e));
+                document.addEventListener('click', playClickSound);
+            } else {
+                fireAudio.pause();
+                fireAudio.currentTime = 0;
+                document.removeEventListener('click', playClickSound);
+            }
+            updateAudioUI(enabled);
+            const overlay = document.getElementById('audio-overlay');
+            if (overlay) overlay.style.display = 'none';
+            const backToTop = document.getElementById('back-to-top');
+            if (backToTop) backToTop.style.display = 'flex';
+        }
+
+        function playClickSound(e) {
+            // Cards click explicitly
+            if (e.target.classList.contains('plan-card') || e.target.closest('.plan-card')) {
+                clickAudio.currentTime = 0;
+                clickAudio.play().catch(e => console.error("Audio playback failed:", e));
+            }
+            // Button/Link clicks (including nav bar)
+            else if (e.target.closest('a') || e.target.tagName === 'BUTTON' || e.target.closest('button') || e.target.classList.contains('cta-button') || e.target.id === 'get-started-btn') {
+                buttonAudio.volume = 0.4;
+                buttonAudio.currentTime = 0;
+                buttonAudio.play().catch(e => console.error("Audio playback failed:", e));
+            } 
+            // Field or empty space clicks (excluding nav toggle)
+            else if (!e.target.closest('#audio-toggle-btn')) {
+                clickAudio.currentTime = 0;
+                clickAudio.play().catch(e => console.error("Audio playback failed:", e));
+            }
+        }
+
+        function updateAudioUI(enabled) {
+            const toggleBtn = document.getElementById('audio-toggle-btn');
+            const icon = document.getElementById('audio-icon');
+            toggleBtn.style.display = 'flex';
+            icon.innerText = enabled ? 'music_note' : 'music_off';
+        }
+
+        function toggleAudio() {
+            // Check current icon state to determine action
+            const icon = document.getElementById('audio-icon');
+            const isEnabled = icon.innerText === 'music_note';
+            enableAudio(!isEnabled);
+        }
+
+            // Initially disabled, always show overlay on load
+            document.addEventListener('DOMContentLoaded', () => {
+                updateAudioUI(false);
+                const overlay = document.getElementById('audio-overlay');
+                if (overlay) {
+                    overlay.style.display = 'flex';
+                }
+                
+                // Back to top logic
+                window.addEventListener('scroll', () => {
+
+                const backToTop = document.getElementById('back-to-top');
+                if (window.scrollY > 300) {
+                    backToTop.style.display = 'flex';
+                } else {
+                    backToTop.style.display = 'none';
+                }
+            });
+        });
+    </script>
+</body>
+</html>
